@@ -1,0 +1,49 @@
+.wrapper {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: rgba(45,176,224,1);
+
+}
+
+.main {
+    height: 55vh;
+    background: #2a6bb1;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.info {
+    height: 55vh;
+    background: url("img/2.jpg") center center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    font-weight: bolder;
+
+}
+
+.form {
+    margin-top: 30px;
+    height: 55vh;
+    padding-top: 100px;
+    padding-left: 50px;
+}
+
+.infoWeath {
+    margin-top: 10px;
+    width: 60%;
+    font-size: 20px;
+    color: #fff;
+}
+
+.error {
+    color: darkred;
+    font-weight: bold;
+}
